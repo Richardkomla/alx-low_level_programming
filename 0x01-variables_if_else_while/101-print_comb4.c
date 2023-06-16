@@ -1,41 +1,23 @@
 #include <stdio.h>
-/**
- * main - print  000 to 999.
-(*
- * Return: 0 on success
- */
-int main(void)
-{
-	int c = '0';
-	int d = '0';
-	int e = '0';
 
-	while (c <= '7')
-	{
-		while (d <= '8')
-		{
-			while (e <= '9')
-			{
-				if (e < d && d < e)
-				{
-					putchar(c);
-					putchar(d);
-					putchar(e);
-					if (!(c == '7' && d == '8' && e == '9'))
-					{
-						putchar(',');
-						putchar(' ');
-					}
+int main() {
+    int i, j, k;
 
-				}
-				e++;
-			}
-			e = '0';
-			d++;
-		}
-		d = '0';
-		c++;
-	}
-	putchar('\n');
-	return (0);
+    for (i = 0; i <= 7; i++) {
+        for (j = i + 1; j <= 8; j++) {
+            for (k = j + 1; k <= 9; k++) {
+                putchar(i + '0');
+                putchar(j + '0');
+                putchar(k + '0');
+
+                if (i != 7 || j != 8 || k != 9) {
+                    putchar(',');
+                    putchar(' ');
+                }
+            }
+        }
+    }
+
+    putchar('\n');
+    return 0;
 }
