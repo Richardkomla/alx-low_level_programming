@@ -10,9 +10,9 @@ int main(void)
 	int d = '0';
 	int e = '0';
 
-	while (c <= '6')
+	while (c <= '7')
 	{
-		while (d <= '7')
+		while (d <= '8')
 		{
 			while (e <= '9')
 			{
@@ -21,7 +21,7 @@ int main(void)
 					putchar(c);
 					putchar(d);
 					putchar(e);
-					if (!(c == '6' && d == '7' && e == '9'))
+					if (!(c == '7' && d == '8' && e == '9'))
 					{
 						putchar(',');
 						putchar(' ');
