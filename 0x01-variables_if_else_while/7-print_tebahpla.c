@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - print alphabet from z to a. 
+ * main - print alphabet from z-a.
 (*
  * Return: 0 on success
  */
