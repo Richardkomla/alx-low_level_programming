@@ -1,10 +1,8 @@
-#include "main.h"
-
+#include "stdio.h"
 /**
-  * print_alphabet - Make the alphabet
-  *
-  * Return: void
-  */
+ * print_alphabet - prints the english alphabet from a-z.
+ * Return: Nothing.
+ */
 void print_alphabet(void)
 {
 	char c;
@@ -13,6 +11,5 @@ void print_alphabet(void)
 	{
 		_putchar(c);
 	}
-
 	_putchar('\n');
 }
