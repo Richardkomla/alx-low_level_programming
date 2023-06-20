@@ -1,19 +1,19 @@
-#include <main.h>
-#include "stdio.h"
-
+#include "main.h"
 /**
- * main - Check description
- * Description: It prints the word _putchar, followed by a new line.
- * Return: 0.
+ * main - prints the string "_putchar".
+ * Return: 0 on success.
  */
 int main(void)
 {
-	char word[8] = "_putchar";
-	int i;
+char *e;
 
-	for (i = 0; i < 8; i++)
-		_putchar(word[i]);
-	_putchar('\n');
+int i;
+e = "_putchar";
 
-	return (0);
+for (i = 0; i < 8; i++)
+{
+_putchar (e[i]);
+}
+_putchar('\n');
+return (0);
 }
