@@ -1,17 +1,19 @@
-#include "Heat.h"
+#include <unistd.h>
+#include "functions.h"
+
 /**
- * main - prints nested loop
- * Return: 0 on success.
+ * main - Check description
+ * Description: It prints the word functions, followed by a new line.
+ * Return: 0.
  */
 int main(void)
 {
-	char c[] = "Heat";
+	char word[9] = "Functions";
 	int i;
 
-	for (i = 0; i < 4; i++)
-	{
-		_putchar(c[i]);
-	}
+	for (i = 0; i < 9; i++)
+		_putchar(word[i]);
 	_putchar('\n');
+
 	return (0);
 }
