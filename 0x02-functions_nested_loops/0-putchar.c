@@ -1,19 +1,17 @@
-#include <unistd.h>
-#include "functions.h"
-
+#include "holberton.h"
 /**
- * main - Check description
- * Description: It prints the word functions, followed by a new line.
- * Return: 0.
+ * main - prints the string "Holberton" from a character array.
+ * Return: 0 on success.
  */
 int main(void)
 {
-	char word[9] = "Functions";
+	char c[] = "Holberton";
 	int i;
 
 	for (i = 0; i < 9; i++)
-		_putchar(word[i]);
+	{
+		_putchar(c[i]);
+	}
 	_putchar('\n');
-
 	return (0);
 }
