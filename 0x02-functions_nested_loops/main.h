@@ -1,21 +1,13 @@
-#ifndef MAIN_H
-#define MAIN_H
-
-/* Function Prototypes */
-
-/* Prints a single character */
-int _putchar(char c);
-
-/* Prints the alphabet in lowercase */
+int _putchar(int c);
 void print_alphabet(void);
-
-/* Prints the alphabet in uppercase */
-void print_alphabet_uppercase(void);
-
-/* Prints a specified number of characters */
-void print_chars(int num_chars);
-
-/* Adds two integers and returns the result */
-int add_numbers(int a, int b);
-
-#endif /* MAIN_H */
+void print_alphabet_x10(void);
+int _islower(int c);
+int _isalpha(int c);
+int print_sign(int n);
+int _abs(int);
+int print_last_digit(int);
+void jack_bauer(void);
+void times_table(void);
+int add(int, int);
+void print_to_98(int n);
+void print_times_table(int n);
