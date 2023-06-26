@@ -1,18 +1,19 @@
 #include "main.h"
 
 /**
- * _puts - print a string to stdout
- * @str: char array string type
- * Description: Can only use _putchar
+ * _puts - Write a function that prints a string, followed
+ * by a new line, to stdout.
+ * @str: an input string
+ * Return: Nothing
  */
-
 void _puts(char *str)
 {
-	int stdout;
+	int i = 0;
 
-	for (stdout = 0; str[stdout] != '\0'; stdout++)
+	while (str[i] != '\0')
 	{
-		_putchar(stdout]);
+		_putchar(str[i]);
+		i++;
 	}
 	_putchar('\n');
 }
