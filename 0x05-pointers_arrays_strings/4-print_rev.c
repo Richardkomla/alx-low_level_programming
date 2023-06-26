@@ -7,13 +7,13 @@
 
 void print_rev(char *s)
 {
-	int stdout;
+	int rev;
 
-	for (stdout = 0; s[stdout] != '\0'; stdout++)
+	for (rev = 0; s[rev] != '\0'; rev++)
 		;
 
-	for (stdout--; stdout >= 0; stdout--)
-		_putchar(s[stdout]);
+	for (rev--; rev >= 0; rev--)
+		_putchar(s[rev]);
 
 	_putchar('\n');
 }
