@@ -1,9 +1,10 @@
 #include "lists.h"
-
 /**
- * print_listint_safe - A function that prints the elementsin a  list
- * @head: A pointer to listint_t structure
- * Return: The number of nodes. Exits with 98 on failure
+ * _check_and_print - Check the list and print
+ * @head: of newlist to check
+ * @prev: node on list to check
+ *
+ * Return: number of nodes
  */
 int _check_and_print(const listint_t *head, listint_safe *prev)
 {
