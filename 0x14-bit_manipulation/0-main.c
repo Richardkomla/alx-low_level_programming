@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * main - check the code for Holberton School students.
+ * main - entry point
  *
  * Return: Always 0.
  */
